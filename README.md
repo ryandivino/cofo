@@ -26,29 +26,6 @@ components/
   Contato.tsx       → exporta Contato e Footer
 ```
 
-## Como rodar localmente
-
-```
-npm install
-npm run dev
-```
-
-Acesse `http://localhost:3000`.
-
-## Como adicionar um novo projeto em "Cofo Labs" ou como case de cliente
-
-Hoje só a Azulejar aparece, tanto no preview do Hero quanto no card de
-Cofo Labs em `Frentes.tsx`. Para adicionar outro projeto:
-
-- No Hero (`components/Hero.tsx`): trocar o conteúdo de `ProjetoPreview`,
-  ou transformar em um pequeno carrossel se houver mais de um projeto em
-  destaque.
-- Em `Frentes.tsx`: duplicar o bloco do card dentro da coluna "Cofo Labs"
-  para cada novo produto próprio.
-
-Não há CMS nem painel para isso: cada novo projeto entra editando o
-código diretamente, o que é aceitável dado o tamanho do site.
-
 ## Deploy
 
 Mesma lógica da Azulejar: conectar o repositório à Vercel, sem
