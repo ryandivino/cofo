@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
-    <section className="bg-grafite py-24 text-creme">
+    <section className="bg-terracota py-24 text-creme">
       <div className="mx-auto grid max-w-6xl gap-14 px-6 md:grid-cols-[1.05fr_0.95fr] md:items-center md:px-[6vw]">
         <div>
           <h1 className="max-w-[19ch] font-display text-4xl font-semibold leading-tight md:text-5xl">
-            Um estúdio de design e desenvolvimento em São Luís.
+            Um estúdio de desenvolvimento web em São Luís.
           </h1>
-          <p className="mt-6 max-w-[42ch] text-lg text-creme/60">
+          <p className="mt-6 max-w-[42ch] text-lg text-creme/70">
             Construímos produtos digitais para clientes e os nossos próprios,
             sob o selo Cofo Labs, com o mesmo cuidado que se põe em
             estruturar algo pra durar.
@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="mt-8">
             <a
               href="#contato"
-              className="inline-block rounded-sm bg-creme px-6 py-3 text-sm font-semibold text-grafite"
+              className="inline-block rounded-sm bg-creme px-6 py-3 text-sm font-semibold text-terracota"
             >
               Falar sobre um projeto
             </a>
@@ -29,7 +29,7 @@ export default function Hero() {
 
 function ProjetoPreview() {
   return (
-    <div className="overflow-hidden rounded-lg border border-creme/10 bg-grafite-suave">
+    <div className="overflow-hidden rounded-lg border border-creme/10 bg-terracota-escuro">
       <div className="flex items-center gap-1.5 border-b border-creme/10 px-3.5 py-2.5">
         <span className="h-2 w-2 rounded-full bg-creme/20" />
         <span className="h-2 w-2 rounded-full bg-creme/20" />

@@ -3,10 +3,10 @@ export default function Frentes() {
     <section id="trabalho" className="py-24">
       <div className="mx-auto grid max-w-6xl gap-16 px-6 md:grid-cols-2 md:px-[6vw]">
         <div>
-          <h2 className="font-display text-2xl font-semibold text-grafite">
+          <h2 className="font-display text-2xl font-semibold text-terracota">
             Projetos para clientes
           </h2>
-          <p className="mt-1.5 max-w-[38ch] text-sm text-grafite/55">
+          <p className="mt-1.5 max-w-[38ch] text-sm text-terracota-escuro/60">
             Trabalho sob encomenda, do desenho da ideia até o código em
             produção.
           </p>
@@ -29,15 +29,15 @@ export default function Frentes() {
         </div>
 
         <div>
-          <h2 className="font-display text-2xl font-semibold text-grafite">
+          <h2 className="font-display text-2xl font-semibold text-terracota">
             Cofo Labs
           </h2>
-          <p className="mt-1.5 max-w-[38ch] text-sm text-grafite/55">
+          <p className="mt-1.5 max-w-[38ch] text-sm text-terracota-escuro/60">
             Produtos que criamos por conta própria, para testar ideias e
             resolver problemas que a gente mesmo sente.
           </p>
 
-          <div className="mt-7 rounded-lg bg-grafite p-6 text-creme">
+          <div className="mt-7 rounded-lg bg-terracota-escuro p-6 text-creme">
             <span className="mb-4 inline-block font-mono text-[11px] tracking-wide text-creme/50">
               Cofo Labs · 01
             </span>
@@ -76,9 +76,9 @@ function Capacidade({
   ultima?: boolean;
 }) {
   return (
-    <div className={`border-t border-grafite/10 py-4.5 ${ultima ? "border-b" : ""}`}>
-      <h3 className="mb-1 text-base font-medium text-grafite">{titulo}</h3>
-      <p className="text-[13.5px] text-grafite/55">{descricao}</p>
+    <div className={`border-t border-terracota/12 py-4.5 ${ultima ? "border-b" : ""}`}>
+      <h3 className="mb-1 text-base font-medium text-terracota-escuro">{titulo}</h3>
+      <p className="text-[13.5px] text-terracota-escuro/60">{descricao}</p>
     </div>
   );
 }

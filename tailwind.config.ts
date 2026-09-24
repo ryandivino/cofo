@@ -8,10 +8,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        terracota: "#D73E1E",
+        "terracota-escuro": "#8B2712",
+        salmao: "#FFB8A9",
+        creme: "#F8F4EC",
+        "creme-2": "#EAE5D6",
         grafite: "#1A1816",
         "grafite-suave": "#29261F",
-        creme: "#F7F4EC",
-        "creme-2": "#EAE5D6",
       },
       fontFamily: {
         display: ["var(--font-space-grotesk)", "sans-serif"],
