@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cofo: design e desenvolvimento",
+  title: "Cofo: desenvolvimento web",
   description:
     "Estúdio de desenvolvimento web em São Luís. Projetos para clientes e produtos próprios sob o selo Cofo Labs.",
 };

@@ -22,7 +22,7 @@ export function Footer() {
   return (
     <footer className="bg-creme py-7">
       <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-2 px-6 text-[13px] text-terracota-escuro/45 md:px-[6vw]">
-        <span>Cofo - desenvolvimento web, do seu jeito.</span>
+        <span>Cofo.</span>
       </div>
     </footer>
   );
